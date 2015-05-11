@@ -1,0 +1,24 @@
+span {
+  background-color: black;
+  display: block;
+  padding-top: 2px;
+  width: 24px;
+  height: 1px;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+span::before {
+  display: block;
+  background-color: black;
+  width: 24px;
+  height: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  content: ''; }
+
+span::after {
+  display: block;
+  background-color: black;
+  width: 24px;
+  height: 3px;
+  content: ''; }
